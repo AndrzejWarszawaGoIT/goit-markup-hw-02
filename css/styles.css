@@ -159,7 +159,6 @@ body {
 
 .pointer {
   cursor: pointer;
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -390,17 +389,17 @@ body {
 }
 
 .ourteam {
+  position: absolute;
   width: 210px;
   height: 42px;
   left: 695px;
-  top: 1543px;
+  top: 94px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -457,6 +456,21 @@ body {
   color: #212121;
 }
 
+.figcaptionname {
+  width: 72px;
+  height: 19px;
+  left: 314px;
+  top: 1925px;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+
+  color: grey;
+}
+
 .foooter {
   position: absolute;
   width: 1600px;
@@ -464,4 +478,85 @@ body {
   left: 0px;
   top: 2097px;
   background: #2f303a;
+}
+.main-page-logo-three {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 275px;
+  top: 24px;
+  color: #ffffff;
+}
+
+.menuaddress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 275px;
+  top: 50px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.linkaddress {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 275px;
+  top: 90px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.linkaddress-one {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 275px;
+  top: 120px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.name-one {
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
 }
